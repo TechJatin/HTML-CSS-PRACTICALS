@@ -3,7 +3,7 @@
 **Subject:** BCS554 – HTML & CSS Development Lab  
 **Student:** Jatin Kumar Gupta  
 **Course:** B.Tech Computer Science & Engineering (Lateral Entry)  
-**ID:** LBCS2025008
+**Student ID:** LBCS2025008
 **Semester / Section:** 5th Semester / D  
 **University:** Invertis University
 
@@ -24,7 +24,7 @@ To understand HTML div elements, attributes and how to identify and fix common H
 ## Files
 - index.html
 - style.css
-- images/screenshot.png
+- images/Lab4.pdf
 
 ## Conclusion
 In this practical, I learned how to group webpage content using div elements, apply HTML attributes and correct common HTML coding errors.

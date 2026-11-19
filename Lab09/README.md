@@ -3,7 +3,7 @@
 **Subject:** BCS554 – HTML & CSS Development Lab  
 **Student:** Jatin Kumar Gupta  
 **Course:** B.Tech Computer Science & Engineering (Lateral Entry)  
-**ID:** LBCS2025008
+**Student ID:** LBCS2025008
 **Semester / Section:** 5th Semester / D  
 **University:** Invertis University
 
@@ -35,7 +35,7 @@ To create HTML tables and understand table headings, body and footer sections.
 ## Files
 - index.html
 - style.css
-- images/screenshot.png
+- images/Lab9.pdf
 
 ## Conclusion
 In this practical, I learned how to create HTML tables, organize table data using thead, tbody and tfoot, and combine cells using colspan and rowspan.

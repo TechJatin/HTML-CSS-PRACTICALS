@@ -19,7 +19,7 @@ and creating a repository.
 ## Files
 - index.html
 - style.css
-- images/screenshot.png
+- images/Lab1.pdf
 
 ## Conclusion
 I learned the basics of Git and GitHub and understood

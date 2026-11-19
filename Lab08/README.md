@@ -3,7 +3,6 @@
 **Subject:** BCS554 – HTML & CSS Development Lab  
 **Student:** Jatin Kumar Gupta  
 **Course:** B.Tech Computer Science & Engineering (Lateral Entry) 
-**ID:** LBCS2025008 
 **Semester / Section:** 5th Semester / D  
 **University:** Invertis University
 

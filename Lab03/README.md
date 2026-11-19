@@ -24,7 +24,7 @@ To learn the basic structure of an HTML document and use HTML elements.
 ## Files
 - index.html
 - style.css
-- images/screenshot.png
+- images/Lab3.pdf
 
 ## Conclusion
 In this practical, I learned how to create a basic HTML webpage, use headings and paragraphs, and format text using HTML elements.

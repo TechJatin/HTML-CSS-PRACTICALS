@@ -9,11 +9,12 @@ A collection of 15 hands-on HTML5 and CSS3 laboratory practicals covering web-pa
 | Student Name | **Jatin Kumar Gupta** |
 | Course | B.Tech Computer Science & Engineering (Lateral Entry) |
 | Semester | 5th Semester |
+| Student ID | **LBCS2025008** |
 | Section | D |
 | University | Invertis University |
 | Subject / Lab Code | BCS554 – HTML & CSS Development Lab (as listed in the supplied practical files) |
 
-> Roll number, student ID, faculty name, and submission date have not been provided and are intentionally omitted.
+> Roll number, faculty name, and submission date have not been provided and are intentionally omitted.
 
 ## Project Overview
 
@@ -102,7 +103,7 @@ git push -u origin main
 If `origin` already exists, update it with:
 
 ```bash
-git remote set-url origin https://github.com/TechJatin/html-css-lab-practicals.git
+git remote set-url origin https://github.com/TechJatin/HTML-CSS-PRACTICALS.git
 ```
 
 ## Author

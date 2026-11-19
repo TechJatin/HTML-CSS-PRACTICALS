@@ -3,7 +3,7 @@
 **Subject:** BCS554 – HTML & CSS Development Lab  
 **Student:** Jatin Kumar Gupta  
 **Course:** B.Tech Computer Science & Engineering (Lateral Entry) 
-**ID:** LBCS2025008 
+**Student ID:** LBCS2025008 
 **Semester / Section:** 5th Semester / D  
 **University:** Invertis University
 
@@ -31,7 +31,7 @@ To learn how to create hyperlinks and insert images into an HTML webpage.
 ## Files
 - index.html
 - style.css
-- images/screenshot.png
+- images/Lab5.pdf
 
 ## Conclusion
 In this practical, I learned how to create hyperlinks, display images and use images as clickable links in an HTML webpage.

@@ -3,7 +3,7 @@
 **Subject:** BCS554 – HTML & CSS Development Lab  
 **Student:** Jatin Kumar Gupta  
 **Course:** B.Tech Computer Science & Engineering (Lateral Entry)
-**ID:** LBCS2025008  
+**Student ID:** LBCS2025008  
 **Semester / Section:** 5th Semester / D  
 **University:** Invertis University
 
@@ -36,5 +36,6 @@ and CSS media queries.
 3. Explore the gallery layout.
 4. Resize the browser to test responsiveness.
 
-## Screenshot
-Screenshot is saved in the images folder.
+## Practical Output
+
+The supplied practical output is available as [Lab14.pdf](images/Lab14.pdf).

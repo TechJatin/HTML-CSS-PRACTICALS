@@ -57,7 +57,6 @@ HTML-CSS-PRACTICALS/
 │   ├── README.md
 │   └── images/          # Supplied practical output PDFs
 ├── Lab02/ ... Lab15/
-├── screenshots/         # Add verified browser screenshots here
 ├── .gitignore
 └── README.md
 ```
@@ -75,7 +74,7 @@ No package installation or build step is required for these static HTML/CSS exer
 
 ## Screenshots and Outputs
 
-The original ZIP includes output PDF files in the individual `images/` folders. They have been retained as supplied. Browser screenshots should be captured from the locally running pages before being added to `screenshots/`; no unverified screenshot is presented as a live execution result.
+Each lab's `images/` folder contains a supplied PDF named `LabXX.pdf`. These are the provided practical output files. Separate browser screenshots have not yet been added to this repository.
 
 ## Learning Outcomes
 
@@ -96,7 +95,7 @@ git init
 git add .
 git commit -m "Add HTML and CSS lab practicals"
 git branch -M main
-git remote add origin https://github.com/TechJatin/html-css-lab-practicals.git
+git remote add origin https://github.com/TechJatin/HTML-CSS-PRACTICALS.git
 git push -u origin main
 ```
 

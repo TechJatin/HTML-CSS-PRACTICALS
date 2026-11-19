@@ -35,7 +35,7 @@ To create an HTML sign-up form using different input elements and selection cont
 ## Files
 - index.html
 - style.css
-- images/screenshot.png
+- images/Lab8.pdf
 
 ## Conclusion
 In this practical, I learned how to create a sign-up form and use different HTML input elements, radio buttons, checkboxes, dropdown menus and text areas.

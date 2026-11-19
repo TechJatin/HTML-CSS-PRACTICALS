@@ -36,5 +36,6 @@ using CSS Grid and Flexbox.
 3. Resize the browser window.
 4. Check the desktop, tablet and mobile layouts.
 
-## Screenshot
-Screenshot is saved in the images folder.
+## Practical Output
+
+The supplied practical output is available as [Lab15.pdf](images/Lab15.pdf).

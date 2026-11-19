@@ -3,7 +3,7 @@
 **Subject:** BCS554 – HTML & CSS Development Lab  
 **Student:** Jatin Kumar Gupta  
 **Course:** B.Tech Computer Science & Engineering (Lateral Entry)  
-**ID:** LBCS2025008
+**Student ID:** LBCS2025008
 **Semester / Section:** 5th Semester / D  
 **University:** Invertis University
 
@@ -32,7 +32,7 @@ push files to GitHub and clone an existing repository.
 - index.html
 - style.css
 - README.md
-- images/screenshot.png
+- images/Lab2.pdf
 
 ## Conclusion
 

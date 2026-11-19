@@ -33,7 +33,7 @@ To create a personal About Me webpage using HTML and CSS.
 ## Files
 - index.html
 - style.css
-- images/screenshot.png
+- images/Lab7.pdf
 
 ## Conclusion
 In this practical, I created a personal About Me webpage and learned how to display personal information, education, skills and hobbies using HTML and CSS.

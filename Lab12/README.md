@@ -3,7 +3,7 @@
 **Subject:** BCS554 – HTML & CSS Development Lab  
 **Student:** Jatin Kumar Gupta  
 **Course:** B.Tech Computer Science & Engineering (Lateral Entry)
-**ID:** LBCS2025008
+**Student ID:** LBCS2025008
 **Semester / Section:** 5th Semester / D  
 **University:** Invertis University
 
@@ -35,5 +35,6 @@ Implemented vertical scrolling using the CSS overflow property.
 3. Explore the CSS cards.
 4. Scroll inside the scrollable content box.
 
-## Screenshot
-Screenshot is saved in the images folder.
+## Practical Output
+
+The supplied practical output is available as [Lab12.pdf](images/Lab12.pdf).

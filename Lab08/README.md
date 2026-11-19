@@ -37,5 +37,8 @@ To create an HTML sign-up form using different input elements and selection cont
 - style.css
 - images/Lab8.pdf
 
+## Note
+This is a front-end HTML/CSS form demonstration. No backend or database is connected, so submitted form data is not stored.
+
 ## Conclusion
 In this practical, I learned how to create a sign-up form and use different HTML input elements, radio buttons, checkboxes, dropdown menus and text areas.

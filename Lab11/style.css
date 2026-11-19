@@ -1,0 +1,160 @@
+
+/* Task 3: Define CSS Variables */
+:root {
+    --primary-color: #123b70;
+    --secondary-color: #2563eb;
+    --background-color: #f1f5f9;
+    --card-color: #ffffff;
+    --text-color: #1e293b;
+    --spacing: 20px;
+    --border-radius: 10px;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+/* Header */
+.header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Card */
+.card {
+    background-color: var(--card-color);
+    padding: var(--spacing);
+    margin-bottom: var(--spacing);
+    border-radius: var(--border-radius);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    color: var(--primary-color);
+    margin-bottom: 18px;
+}
+
+/* Task 1: Absolute Units */
+.px-box {
+    width: 300px;
+    max-width: 100%;
+    padding: 15px;
+    background-color: #dbeafe;
+    border: 2px solid var(--secondary-color);
+}
+
+.pixel-text {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+/* Task 2: Relative Units */
+.percent-box {
+    width: 80%;
+    padding: 15px;
+    background-color: #dbeafe;
+    margin-bottom: 15px;
+}
+
+.em-box {
+    font-size: 20px;
+    padding: 1em;
+    background-color: #e0f2fe;
+    margin-bottom: 15px;
+}
+
+.rem-box {
+    font-size: 1.2rem;
+    padding: 1rem;
+    background-color: #dcfce7;
+    margin-bottom: 15px;
+}
+
+.viewport-box {
+    width: 70vw;
+    max-width: 100%;
+    padding: 15px;
+    background-color: #fef3c7;
+}
+
+/* Task 3: CSS Variables */
+.variable-box {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: calc(var(--spacing) * 1.5);
+    border-radius: var(--border-radius);
+    border-left: 5px solid var(--secondary-color);
+}
+
+.variable-box h3 {
+    margin-bottom: 10px;
+}
+
+.demo-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.demo-button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .px-box {
+        width: 100%;
+    }
+
+    .viewport-box {
+        width: 100%;
+    }
+}

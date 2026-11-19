@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 - Pushing and Cloning Repository</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Lab 2: Pushing and Cloning a Repository</h1>
+        <p>BCS554 - HTML & CSS Development Lab</p>
+    </header>
+
+    <main>
+
+        <section class="student">
+            <h2>Student Details</h2>
+            <p><strong>Name:</strong> Jatin Kumar Gupta</p>
+            <p><strong>Roll Number:</strong> 2550303010 </p>
+            <p><strong>Course:</strong> B.Tech CSE (Lateral-Entry)</p>
+            <p><strong>University:</strong> Invertis University, Bareilly</p>
+        </section>
+
+        <section>
+            <h2>Objective</h2>
+            <p>
+                To learn how to connect a local Git repository with GitHub,
+                push project files to GitHub and clone an existing repository.
+            </p>
+        </section>
+
+        <section>
+            <h2>Task 1: Connect a Remote Repository</h2>
+
+            <p>
+                A remote repository is a version of the project hosted
+                on GitHub. We connect it with our local repository
+                using the git remote command.
+            </p>
+
+            <h3>Git Commands:</h3>
+
+            <pre>
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+
+git branch -M main
+
+git remote -v
+            </pre>
+
+            <p class="note">
+                Replace USERNAME and REPOSITORY with your actual
+                GitHub username and repository name.
+            </p>
+        </section>
+
+        <section>
+            <h2>Task 2: Push Code to GitHub</h2>
+
+            <p>
+                Pushing means uploading local project changes
+                to the remote GitHub repository.
+            </p>
+
+            <h3>Git Commands:</h3>
+
+            <pre>
+git add .
+
+git commit -m "Upload practical files"
+
+git push -u origin main
+            </pre>
+
+            <p>
+                After successfully pushing, open your GitHub
+                repository to check the uploaded files.
+            </p>
+        </section>
+
+        <section>
+            <h2>Task 3: Clone a Repository</h2>
+
+            <p>
+                Cloning means downloading a copy of an existing
+                remote repository to your local computer.
+            </p>
+
+            <h3>Git Command:</h3>
+
+            <pre>
+git clone https://github.com/USERNAME/REPOSITORY.git
+            </pre>
+
+            <p>
+                After cloning, open the downloaded project folder
+                in Visual Studio Code.
+            </p>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+
+            <p>
+                In this practical, I learned how to connect a local
+                repository to GitHub, push files to a remote repository
+                and clone an existing repository.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>BCS554 | HTML & CSS Development Lab</p>
+        <p>Submitted by Jatin Kumar Gupta</p>
+    </footer>
+
+</body>
+
+</html>

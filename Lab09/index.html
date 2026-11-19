@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 09 - HTML Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>HTML Tables</h1>
+        <p>HTML and CSS Development Lab - Lab 09</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Task 1: Create a Basic HTML Table -->
+        <section class="card">
+            <h2>Task 1: Create a Basic HTML Table</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Roll Number</th>
+                        <th>Student Name</th>
+                        <th>Course</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Jatin Kumar Gupta</td>
+                        <td>B.Tech CSE</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Rahul Sharma</td>
+                        <td>B.Tech CSE</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Aman Verma</td>
+                        <td>BCA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Task 2: Use Table Header and Footer -->
+        <section class="card">
+            <h2>Task 2: Use Table Header and Footer</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Maximum Marks</th>
+                        <th>Obtained Marks</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>100</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>100</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>100</td>
+                        <td>80</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th>Total</th>
+                        <th>300</th>
+                        <th>255</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Task 3: Use Colspan and Rowspan -->
+        <section class="card">
+            <h2>Task 3: Use Colspan and Rowspan</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Student Timetable</th>
+                    </tr>
+                    <tr>
+                        <th>Day</th>
+                        <th>Subject</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Monday</td>
+                        <td>HTML</td>
+                        <td>10:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>11:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>JavaScript</td>
+                        <td>10:00 AM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Student Details -->
+        <section class="card">
+            <h2>Student Details</h2>
+            <p><strong>Name:</strong> Jatin Kumar Gupta</p>
+            <p><strong>Course:</strong> B.Tech CSE</p>
+            <p><strong>University:</strong> Invertis University</p>
+            <p><strong>Practical:</strong> Lab 09</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Jatin Kumar Gupta | Lab 09</p>
+    </footer>
+
+</body>
+</html>
+

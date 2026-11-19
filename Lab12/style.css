@@ -1,0 +1,167 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #123b70;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* Sections */
+.section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.section h2 {
+    color: #123b70;
+    margin-bottom: 15px;
+}
+
+/* Task 1: Box Model */
+.box-model {
+    width: 280px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 6px solid #2563eb;
+    background-color: #dbeafe;
+    text-align: center;
+}
+
+.box-content {
+    background-color: #bfdbfe;
+    padding: 20px;
+    color: #123b70;
+    font-weight: bold;
+}
+
+/* Task 2: Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 1 1 220px;
+    background-color: #f8fafc;
+    border: 1px solid #dbeafe;
+    border-radius: 10px;
+    padding: 22px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card-icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #123b70;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 18px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background-color: #123b70;
+}
+
+/* Task 3: Scrolling */
+.scroll-box {
+    height: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #eff6ff;
+}
+
+.scroll-box h3 {
+    color: #123b70;
+    margin-bottom: 10px;
+}
+
+.scroll-box p {
+    padding: 8px;
+    border-bottom: 1px solid #dbeafe;
+}
+
+/* Footer */
+footer {
+    background-color: #123b70;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .section {
+        padding: 18px;
+    }
+
+    .box-model {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+}

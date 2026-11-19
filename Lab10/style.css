@@ -1,0 +1,144 @@
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+/* Header Styling */
+header {
+    background-color: #123b70;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Class Selector */
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    color: #123b70;
+    margin-bottom: 18px;
+}
+
+/* Task 1: CSS Selectors */
+.heading {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+#intro {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.description {
+    color: #475569;
+    font-style: italic;
+}
+
+/* Task 2: Colors and Backgrounds */
+.color-box {
+    background-color: #dbeafe;
+    color: #123b70;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.gradient-box {
+    background: linear-gradient(120deg, #123b70, #3b82f6);
+    color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* Task 3: Text and Border Styling */
+.styled-heading {
+    color: #123b70;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.styled-text {
+    color: #475569;
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.border-box {
+    border: 2px solid #2563eb;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #eff6ff;
+}
+
+.demo-button {
+    background-color: #123b70;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.demo-button:hover {
+    background-color: #2563eb;
+}
+
+/* Footer */
+footer {
+    background-color: #123b70;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .card {
+        padding: 18px;
+    }
+}

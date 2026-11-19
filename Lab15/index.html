@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 15 - Responsive Web Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="home">
+        <h1>Lab 15: Responsive Web Design</h1>
+        <p>HTML and CSS Development Lab</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">MyWebsite</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+
+        <!-- Task 1: Responsive Web Design -->
+        <section class="section" id="about">
+            <h2>Task 1: Responsive Web Design</h2>
+
+            <p>
+                Responsive Web Design makes websites adjust
+                automatically according to different screen sizes
+                such as mobile phones, tablets and desktops.
+            </p>
+
+            <div class="device-container">
+                <div class="device-card">
+                    <h3>Desktop</h3>
+                    <p>Large screen layout</p>
+                </div>
+
+                <div class="device-card">
+                    <h3>Tablet</h3>
+                    <p>Medium screen layout</p>
+                </div>
+
+                <div class="device-card">
+                    <h3>Mobile</h3>
+                    <p>Small screen layout</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Task 2: Media Queries -->
+        <section class="section">
+            <h2>Task 2: CSS Media Queries</h2>
+
+            <p>
+                Media queries apply different CSS styles
+                according to the screen width.
+            </p>
+
+            <div class="media-box">
+                <h3>Responsive Media Query Box</h3>
+                <p class="desktop-message">
+                    You are viewing the desktop layout.
+                </p>
+                <p class="tablet-message">
+                    You are viewing the tablet layout.
+                </p>
+                <p class="mobile-message">
+                    You are viewing the mobile layout.
+                </p>
+            </div>
+        </section>
+
+        <!-- Task 3: Responsive Website Layout -->
+        <section class="section" id="services">
+            <h2>Task 3: Responsive Website Layout</h2>
+
+            <div class="service-grid">
+
+                <div class="service-card">
+                    <div class="icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Build modern websites using HTML,
+                        CSS and JavaScript.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon">🎨</div>
+                    <h3>Web Designing</h3>
+                    <p>
+                        Create attractive and user-friendly
+                        website interfaces.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Make websites work smoothly on
+                        mobiles, tablets and desktops.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <h2>Contact Information</h2>
+            <p><strong>Name:</strong> Jatin Kumar Gupta</p>
+            <p><strong>Course:</strong> B.Tech CSE</p>
+            <p><strong>University:</strong> Invertis University</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>BCS554 - HTML and CSS Development Lab</p>
+        <p>Created by: Jatin Kumar Gupta</p>
+    </footer>
+
+</body>
+</html>
